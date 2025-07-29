@@ -64,17 +64,17 @@ CREATE TABLE zepto (
   weightInGms INTEGER,
   outOfStock BOOLEAN,
   quantity INTEGER
-                   );
+   );
 
-3. Data Import
+2. Data Import
 Loaded CSV using pgAdmin's import feature.
 
 If you're not able to use the import feature, write this code instead:
-   \copy zepto(category,name,mrp,discountPercent,availableQuantity,
+\copy zepto(category,name,mrp,discountPercent,availableQuantity,
             discountedSellingPrice,weightInGms,outOfStock,quantity)
   FROM 'data/zepto_v2.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
 
-  3. 🔍 Data Exploration
+3. 🔍 Data Exploration
 Counted the total number of records in the dataset
 
 Viewed a sample of the dataset to understand structure and content
