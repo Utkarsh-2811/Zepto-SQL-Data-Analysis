@@ -64,9 +64,9 @@ CREATE TABLE zepto (
   weightInGms INTEGER,
   outOfStock BOOLEAN,
   quantity INTEGER
-);
+                   );
 
-2. Data Import
+3. Data Import
 Loaded CSV using pgAdmin's import feature.
 
 If you're not able to use the import feature, write this code instead:
