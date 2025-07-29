@@ -136,10 +136,6 @@ CREATE TABLE zepto (
 
       - Import the dataset (convert to UTF-8 if necessary)
 
-## 📜 License
-
-MIT — feel free to fork, star, and use in your portfolio.
-
 ## 👨‍💻 About the Author
 Hey, I’m Utkarsh Latthe — a Data Analyst & Content Creator.
 I break down complex data topics into simple, practical content that actually helps you land a job.
